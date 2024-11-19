@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UserService.context;
 
@@ -11,9 +12,11 @@ using UserService.context;
 namespace UserService.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241119165450_addroless")]
+    partial class addroless
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,15 +54,9 @@ namespace UserService.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "5b9140e1-ef1f-4aeb-8ea1-e1bc94a009da",
+                            Id = "88d70ae6-5425-4004-bdb4-ff1320377e22",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "566ac1e7-43a0-46d0-92eb-d2a2755c9ab9",
-                            Name = "User",
-                            NormalizedName = "USER"
                         });
                 });
 
