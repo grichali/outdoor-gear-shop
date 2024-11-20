@@ -3,7 +3,7 @@ using UserService.context;
 using Microsoft.AspNetCore.Identity;
 using UserService.Model;
 using UserService.Interface;
-using api.Service;
+using UserService.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 

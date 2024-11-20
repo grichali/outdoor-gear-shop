@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using UserService.Model;
 using Microsoft.AspNetCore.Identity;
 
-namespace api.Extensions
+namespace UserService.Extensions
 {
     public static class ClaimsExtensions
     {

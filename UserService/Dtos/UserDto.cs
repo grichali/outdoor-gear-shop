@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using UserService.Model ;
 
-namespace api.Dtos.User
+namespace UserService.Dtos.User
 {
     public class UserDto
     {
