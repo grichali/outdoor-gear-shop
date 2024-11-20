@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Tokens;
 
-namespace api.Service
+namespace UserService.Service
 {
     public class TokenService : ITokenService
     {

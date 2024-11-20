@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UserService.Dtos.User
+namespace UserService.Dtos
 {
     public class ForgotPasswordDto
     {

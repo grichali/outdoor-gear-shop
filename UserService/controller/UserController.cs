@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UserService.Dtos.User;
+using UserService.Dtos;
 using UserService.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -34,18 +34,18 @@ namespace UserService.controller
                     if(await signUpDto.Email.IfEmailExists(_userManager)){
                         return BadRequest("Email already exists");
                     }
-                    var user = new AppUser{
+                    AppUser user = new AppUser{
                         UserName = signUpDto.UserName,
                         Email = signUpDto.Email,
                     };
 
-                    var createduser = await _userManager.CreateAsync(user, signUpDto.Password);
+                    IdentityResult createduser = await _userManager.CreateAsync(user, signUpDto.Password);
                     if(createduser.Succeeded)
                     {
-                        var roleResult = await _userManager.AddToRoleAsync(user, "User");
+                        IdentityResult roleResult = await _userManager.AddToRoleAsync(user, "User");
                         if(roleResult.Succeeded)
                         {
-                            var roles = await _userManager.GetRolesAsync(user);
+                            IList<string> roles = await _userManager.GetRolesAsync(user);
                             return Ok(new UserDto{
                                 Id = user.Id,
                                 UserName = user.UserName,
@@ -62,6 +62,28 @@ namespace UserService.controller
                 {
                     return StatusCode(500, e);
                 }
+        }
+    
+    
+    
+        [HttpPost("Login")]
+        public async Task <IActionResult> Login([FromBody] LogInDto logInDto)
+        {
+            AppUser? user = await _userManager.FindByEmailAsync(logInDto.Email);
+            if(user == null)
+                return BadRequest("Username Or Password is incorrect");
+
+            bool result = await _userManager.CheckPasswordAsync(user, logInDto.Password);
+
+            if(result == false)
+                return BadRequest("Username Or Password is incorrect");
+
+             return Ok(new UserDto{
+                                Id = user.Id,
+                                UserName = user.UserName,
+                                Email = user.Email,
+                                Token = await _tokenService.CreateToken(user)
+                            });
         }
     }
 }

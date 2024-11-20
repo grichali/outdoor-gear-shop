@@ -16,7 +16,6 @@ namespace UserService.Extensions
         }
 
 
-
         public static async Task<bool> IfEmailExists(this string email, UserManager<AppUser> userManager){
             var user = await userManager.FindByEmailAsync(email);
             return user != null ; 
