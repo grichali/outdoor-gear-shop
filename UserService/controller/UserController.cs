@@ -6,6 +6,7 @@ using api.Dtos.User;
 using api.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using UserService.Interface;
 using UserService.Model;
 
 namespace UserService.controller
@@ -17,8 +18,10 @@ namespace UserService.controller
         
         private readonly UserManager<AppUser> _userManager;
 
-        public UserController(UserManager<AppUser> userManager){
+        private readonly ITokenService _tokenService;
+        public UserController(UserManager<AppUser> userManager, ITokenService tokenService){
             _userManager = userManager;
+            _tokenService = tokenService;
         }
 
         [HttpPost("Register")]
@@ -47,7 +50,7 @@ namespace UserService.controller
                                 Id = user.Id,
                                 UserName = user.UserName,
                                 Email = user.Email,
-                                // Token = _tokenService.CreateToken(user, roles)
+                                Token = await _tokenService.CreateToken(user)
                             });
                         }else{
                             return StatusCode(500, "Error while assigning role");
