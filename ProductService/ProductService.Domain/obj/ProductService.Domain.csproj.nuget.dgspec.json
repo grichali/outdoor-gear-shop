@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {}
+    "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+    "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "projectUniqueName": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
         "projectName": "ProductService.Domain",
-        "projectPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
-        "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\obj\\",
+        "projectPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "packagesPath": "C:\\Users\\p\\.nuget\\packages\\",
+        "outputPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\p\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
