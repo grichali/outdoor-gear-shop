@@ -84,6 +84,7 @@ namespace UserService.controller
                                 Email = user.Email,
                                 Token = await _tokenService.CreateToken(user)
                             });
+
         }
     }
 }
