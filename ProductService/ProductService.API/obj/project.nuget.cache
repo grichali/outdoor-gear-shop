@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dxY8+l/iySg1EmxIwT3VYhw0yUBc2a5VJ0kEMocCu1vhNhls3MMbeejpUwVASkN6GOp1/wV2nnoUB1yypN7DbA==",
+=======
+  "dgSpecHash": "3oVB/MTnX5OAnoJ/QqQmx8sWMHWtpUvulJP13tP+jTN7DShPJd3O2giu5YQmN/EULOeSiuXM61a32vW0SkJpwA==",
+>>>>>>> e8e64b97af3858b273ae04f556913acc49df7cfa
   "success": true,
   "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
   "expectedPackageFiles": [
