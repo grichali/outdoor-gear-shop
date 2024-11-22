@@ -12,10 +12,13 @@ namespace ProductService.Application.Services
     {
         private IProductRepository _productRepository;
 
-        private IImageRepository imageRepository;
-        public ProductService(IProductRepository productRepository)
+        private IImageRepository _imageRepository;
+        private readonly ICloudinary _cloudinary;
+        public ProductService(IProductRepository productRepository, ICloudinary cloudinary, IImageRepository imageRepository)
         {
             _productRepository = productRepository;
+            _cloudinary = cloudinary;
+            _imageRepository = imageRepository;
         }
         public Task<ProductDto> CreateProductAsync(CreateProductDto request)
         {
