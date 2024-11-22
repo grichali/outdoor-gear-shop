@@ -1229,7 +1229,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "MongoDB.Driver >= 3.0.0",
       "ProductService.Application >= 1.0.0",
       "ProductService.Domain >= 1.0.0",
       "ProductService.Infrastructure >= 1.0.0",
@@ -1296,10 +1295,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "[3.0.0, )"
-          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
