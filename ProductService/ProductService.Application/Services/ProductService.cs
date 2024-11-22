@@ -17,9 +17,9 @@ namespace ProductService.Application.Services
         {
             _productRepository = productRepository;
         }
-        public Task<ProductDto> CreateProductAsync(CreateProductDto request)
+        public Task<ProductDto> CreateProductAsync(CreateProductDto productDto)
         {
-            throw new NotImplementedException();
+            return _productRepository.AddAsync(product, "hdked");
         }
 
         public Task DeleteProductAsync(string id)

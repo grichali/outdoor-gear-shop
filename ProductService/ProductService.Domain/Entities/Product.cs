@@ -12,16 +12,16 @@ namespace ProductService.Domain.Entities
     {
         [BsonId]
         [BsonRepresentation(MongoDB.Bson.BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string Description { get; set; } = string.Empty;
         public decimal Price { get; set; }
 
         public ProductState State { get; set; }
 
         public ProductStatus Status { get; set; }
-        public string SellerId { get; set; }
-        public List<string> ImageIds { get; set; }
+        public string SellerId { get; set; } = string.Empty;
+        public List<string> ImageIds { get; set; } = new List<string>();
         [BsonRepresentation(MongoDB.Bson.BsonType.DateTime)]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         [BsonRepresentation(MongoDB.Bson.BsonType.DateTime)]
