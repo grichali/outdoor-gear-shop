@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using ProductService.Domain.Entities;
 using ProductService.Domain.Enums;
 
@@ -16,6 +17,6 @@ namespace ProductService.Application.Dtos
         public ProductState State { get; set; }
         public ProductStatus Status { get; set; }
         public string SellerId { get; set; }
-        public List<Image> ImageUrls { get; set; }
+        public List<IFormFile> ImageUrls { get; set; }
     }
 }

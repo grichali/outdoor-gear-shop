@@ -15,9 +15,9 @@ namespace ProductService.Application.Services
         {
             _cloudinary = cloudinary;
         }
-        public async Task<string> UploadImageAsync(Stream fileStream, string fileName)
+        public async Task<string> UploadImageAsync(Stream fileStream)
         {
-            string uniqueFileName = Guid.NewGuid().ToString() + "_" + fileName;
+            string uniqueFileName = Guid.NewGuid().ToString();
             var uploadParam = new ImageUploadParams
             {
                 File = new FileDescription(uniqueFileName,fileStream),

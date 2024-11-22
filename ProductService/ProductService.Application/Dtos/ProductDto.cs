@@ -14,7 +14,6 @@ namespace ProductService.Application.Dtos
         public string Description { get; set; }
         public decimal Price { get; set; }
         public ProductState State { get; set; }
-        public ProductStatus Status { get; set; }
         public string SellerId { get; set; }
         public List<string> ImageUrls { get; set; }
     }

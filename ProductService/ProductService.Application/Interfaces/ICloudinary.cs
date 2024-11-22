@@ -8,6 +8,6 @@ namespace ProductService.Application.Interfaces
 {
     public interface ICloudinary
     {
-        Task<string> UploadImageAsync(Stream fileStream, string fileName);
+        Task<string> UploadImageAsync(Stream fileStream);
     }
 }
