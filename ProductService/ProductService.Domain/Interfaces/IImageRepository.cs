@@ -9,9 +9,9 @@ namespace ProductService.Domain.Interfaces
 {
     public interface IImageRepository
     {
-        Task<Image> GetByIdAsync(string id);
-        Task<List<Image>> GetByProductIdAsync(string productId);
-        Task AddAsync(Image image);
-        Task DeleteAsync(string id);
+        Task<Image> AddAsync(Image image);
+        Task<bool> DeleteAsync(string id);
+        Task<Image> GetByIdAsync(string imageId);
+
     }
 }

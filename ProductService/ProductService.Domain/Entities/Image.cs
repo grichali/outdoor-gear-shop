@@ -8,8 +8,7 @@ namespace ProductService.Domain.Entities
 {
     public class Image
     {
-        public string Id { get; set; }
-        public string ProductId { get; set; } 
+        public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Url { get; set; } 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
