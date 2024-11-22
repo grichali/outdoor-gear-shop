@@ -1,3 +1,4 @@
+using CloudinaryDotNet;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using ProductService.Infrastructure;
@@ -13,6 +14,8 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
     var settings = serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value;
     return new MongoClient(settings.MongoDbConnectionString);
 });
+
+builder.Services.AddSingleton(x => new Cloudinary(builder.Configuration["Cloudinary:CloudinaryUrl"]));
 
 
 builder.Services.AddControllers();
