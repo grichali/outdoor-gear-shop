@@ -1,5 +1,7 @@
 ﻿using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
+using MongoDB.Driver;
+using ProductService.Application.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +17,24 @@ namespace ProductService.Application.Services
         {
             _cloudinary = cloudinary;
         }
+
+        public async Task<bool> DeleteImageAsync(string fileName)
+        {
+            fileName = Path.GetFileName(fileName);
+            DelResParams deleteParams = new DelResParams()
+            {
+                PublicIds = new List<string> { fileName },
+                Type = "upload",
+                ResourceType = ResourceType.Image
+            };
+            DelResResult result = await _cloudinary.DeleteResourcesAsync(deleteParams);
+            if(result.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                return true;
+            }
+            return false;
+        }
+
         public async Task<string> UploadImageAsync(Stream fileStream, string fileName)
         {
             string uniqueFileName = Guid.NewGuid().ToString() + "_" + fileName;

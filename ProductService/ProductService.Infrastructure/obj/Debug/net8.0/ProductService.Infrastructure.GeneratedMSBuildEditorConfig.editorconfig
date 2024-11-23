@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProductService.Infrastructure
-<<<<<<< HEAD
 build_property.ProjectDir = D:\bureau\GI\s5\outdoor-gear-shop\ProductService\ProductService.Infrastructure\
-=======
-build_property.ProjectDir = c:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\
->>>>>>> e8e64b97af3858b273ae04f556913acc49df7cfa
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

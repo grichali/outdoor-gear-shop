@@ -11,7 +11,6 @@ namespace ProductService.Application.Services
     public class ProductService : IProductService
     {
         private IProductRepository _productRepository;
-
         private IImageRepository _imageRepository;
         private readonly ICloudinary _cloudinary;
         public ProductService(IProductRepository productRepository, ICloudinary cloudinary, IImageRepository imageRepository)
@@ -22,7 +21,7 @@ namespace ProductService.Application.Services
         }
         public Task<ProductDto> CreateProductAsync(CreateProductDto productDto)
         {
-            return _productRepository.AddAsync(product, "hdked");
+            
         }
 
         public Task DeleteProductAsync(string id)

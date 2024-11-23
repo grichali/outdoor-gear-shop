@@ -9,5 +9,6 @@ namespace ProductService.Application.Interfaces
     public interface ICloudinary
     {
         Task<string> UploadImageAsync(Stream fileStream, string fileName);
+        Task<bool> DeleteImageAsync(string fileName);
     }
 }

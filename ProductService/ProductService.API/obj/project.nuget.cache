@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "dxY8+l/iySg1EmxIwT3VYhw0yUBc2a5VJ0kEMocCu1vhNhls3MMbeejpUwVASkN6GOp1/wV2nnoUB1yypN7DbA==",
-=======
-  "dgSpecHash": "3oVB/MTnX5OAnoJ/QqQmx8sWMHWtpUvulJP13tP+jTN7DShPJd3O2giu5YQmN/EULOeSiuXM61a32vW0SkJpwA==",
->>>>>>> e8e64b97af3858b273ae04f556913acc49df7cfa
+  "dgSpecHash": "CWh0hUeivRBisFQ6spkPu2I4e4EglkM0VKd9opfr+GFRfpyPm2AS087GKC2FeAG+drOAbUE9TWbEP3UcOEG68w==",
   "success": true,
   "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
   "expectedPackageFiles": [
@@ -84,5 +80,12 @@
     "C:\\Users\\p\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
