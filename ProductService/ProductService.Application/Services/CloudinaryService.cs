@@ -37,7 +37,7 @@ namespace ProductService.Application.Services
 
         public async Task<string> UploadImageAsync(Stream fileStream, string fileName)
         {
-            string uniqueFileName = Guid.NewGuid().ToString() + "_" + fileName;
+            string uniqueFileName = Guid.NewGuid().ToString();
             var uploadParam = new ImageUploadParams
             {
                 File = new FileDescription(uniqueFileName,fileStream),

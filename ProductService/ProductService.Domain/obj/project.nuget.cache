@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "IpIYOHDIAIZ1VLMmGFVSFVvQfjN6pWpBuD5mVOQh3FnewibYZN7HBBQpLtRjb2JCTqqVeu08zZY32eLcPWyRhw==",
   "success": true,
   "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+=======
+  "dgSpecHash": "326JGk4ZlTp3cx5MAmMeCUmqZnRbBI0iSzQJBO8tPtw9skwS2qRi7DWTnpuQbj4MpClxhpG7/Xrp5Gl/e3xaaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+>>>>>>> a17eb42fc312659a47e3b21872ddb1328c91c366
   "expectedPackageFiles": [],
   "logs": []
 }
