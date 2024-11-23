@@ -25,7 +25,7 @@ namespace ProductService.Application.Services
         public async Task<ProductDto> CreateProductAsync(CreateProductDto productDto)
         {
             List<string> imagesid = new List<string>();
-            foreach(IFormFile image in productDto.ImageUrls)
+            foreach (IFormFile image in productDto.ImageUrls)
             {
                 string imageurl = await _cloudinary.UploadImageAsync(image.OpenReadStream());
                 Image newimage = new Image
@@ -49,7 +49,7 @@ namespace ProductService.Application.Services
 
             Product newproduct = await _productRepository.AddAsync(product);
             List<string> imageurls = new List<string>();
-            foreach(string id in product.ImageIds)
+            foreach (string id in product.ImageIds)
             {
                 Image image = await _imageRepository.GetByIdAsync(id);
                 imageurls.Add(image.Url);
@@ -61,14 +61,14 @@ namespace ProductService.Application.Services
         {
 
             Product result = await _productRepository.GetByIdAsync(id);
-            if(result != null)
+            if (result != null)
             {
-                foreach(string imageid in result.ImageIds)
+                foreach (string imageid in result.ImageIds)
                 {
                     Image image = await _imageRepository.GetByIdAsync(imageid);
 
                     bool deleteImage = await _cloudinary.DeleteImageAsync(image.Url);
-                    if(!deleteImage)
+                    if (!deleteImage)
                     {
                         return false;
                     }
@@ -76,7 +76,7 @@ namespace ProductService.Application.Services
                 }
 
                 return await _productRepository.DeleteAsync(result.Id);
-                
+
             }
 
             return false;
@@ -86,7 +86,7 @@ namespace ProductService.Application.Services
         {
             List<Product> products = await _productRepository.GetAllAsync();
             List<ProductDto> productDtos = new List<ProductDto>();
-            foreach(Product product in products)
+            foreach (Product product in products)
             {
                 ProductDto productDto = await GetProductByIdAsync(product.Id);
                 productDtos.Add(productDto);
@@ -97,6 +97,10 @@ namespace ProductService.Application.Services
         public async Task<ProductDto> GetProductByIdAsync(string id)
         {
             Product product = await _productRepository.GetByIdAsync(id);
+            if (product == null)
+            {
+                return null;
+            }
             List<string> imageurls = new List<string>();
             foreach (string imageId in product.ImageIds)
             {
@@ -109,20 +113,21 @@ namespace ProductService.Application.Services
         public async Task<ProductDto> UpdateProductAsync(string id, UpdateProductDto productDto)
         {
             Product product = await _productRepository.GetByIdAsync(id);
-            if(product == null)
+            if (product == null)
             {
                 return null;
             }
             List<string> imagesToDelete = product.ImageIds.Except(productDto.imageIds).ToList();
             List<string> imageToKeep = product.ImageIds.Intersect(productDto.imageIds).ToList();
-            foreach(string imageId in imagesToDelete)
+            foreach (string imageId in imagesToDelete)
             {
                 await _imageRepository.DeleteAsync(imageId);
             }
-            foreach(string imageId in imageToKeep)
+            foreach (string imageId in imageToKeep)
             {
                 Image image = await _imageRepository.GetByIdAsync(imageId);
-                if(image != null && !productDto.ImageUrls.Contains(image.Url)){
+                if (image != null && !productDto.ImageUrls.Contains(image.Url))
+                {
                     image.Url = productDto.ImageUrls.FirstOrDefault(url => url == image.Url) ?? image.Url;
                     await _imageRepository.UpadateAsync(image);
                 }
@@ -149,4 +154,5 @@ namespace ProductService.Application.Services
             };
 
         }
+    }
 }

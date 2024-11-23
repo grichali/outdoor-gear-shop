@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj": {}
+    "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Api\\ProductService.API.csproj": {}
   },
   "projects": {
-    "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj": {
+    "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Api\\ProductService.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
+        "projectUniqueName": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Api\\ProductService.API.csproj",
         "projectName": "ProductService.API",
-        "projectPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
+        "projectPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Api\\ProductService.API.csproj",
         "packagesPath": "C:\\Users\\p\\.nuget\\packages\\",
-        "outputPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\obj\\",
+        "outputPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

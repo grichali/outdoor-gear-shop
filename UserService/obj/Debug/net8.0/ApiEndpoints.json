@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "UserService.controller.UserController",
+    "Method": "Login",
+    "RelativePath": "userservice/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logInDto",
+        "Type": "UserService.Dtos.LogInDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UserService.controller.UserController",
+    "Method": "UserSignUp",
+    "RelativePath": "userservice/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signUpDto",
+        "Type": "UserService.Dtos.SignUpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

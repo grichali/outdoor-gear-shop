@@ -1,0 +1,63 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using ProductService.Application.Dtos;
+using ProductService.Application.Interfaces;
+
+namespace ProductService.API.Controllers
+{
+    [ApiController]
+    [Route("api/product")]
+    public class ProductController : ControllerBase
+    {
+        private readonly IProductService _productService;
+        ProductController(IProductService productService)
+        {
+            _productService = productService;
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetAllProduct()
+        {
+            List<ProductDto> products = await _productService.GetAllProductsAsync();
+            if(products.Count == 0)
+            {
+                return NotFound("no products");
+            }
+            return Ok(products);
+        }
+        [HttpPost]
+        public async Task<IActionResult> CreateProduct([FromForm] CreateProductDto productDto)
+        {
+            ProductDto product = await _productService.CreateProductAsync(productDto);
+            return Ok(product);
+        }
+        [HttpDelete("/{id}")]
+        public async Task<IActionResult> DeleteAsync([FromRoute] string id)
+        {
+            bool result =await _productService.DeleteProductAsync(id);
+            if (result)
+            {
+                return Ok();
+            }
+            return BadRequest("product can't be deleted");
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetProductById([FromRoute] string id)
+        {
+            ProductDto product = await _productService.GetProductByIdAsync(id);
+            if(product == null)
+            {
+                return NotFound("product not found");
+            }
+            return Ok(product);
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateProduct([FromRoute] string id ,[FromBody] UpdateProductDto productDto)
+        {
+            ProductDto product = await _productService.UpdateProductAsync(id,productDto);
+            if(product == null)
+            {
+                return NotFound("product Not Found");
+            }
+            return Ok(product);
+        }
+    }
+}
