@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 
 namespace ProductService.Application.Services
 {
-    public class CloudinaryService : Interfaces.ICloudinary
+    public class CloudinaryService : ICloudinaryService
     {
         private readonly Cloudinary _cloudinary;
-        CloudinaryService(Cloudinary cloudinary)
+        public CloudinaryService(Cloudinary cloudinary)
         {
             _cloudinary = cloudinary;
         }

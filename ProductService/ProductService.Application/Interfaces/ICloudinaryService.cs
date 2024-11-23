@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProductService.Application.Interfaces
 {
-    public interface ICloudinary
+    public interface ICloudinaryService
     {
         Task<string> UploadImageAsync(Stream fileStream);
         Task<bool> DeleteImageAsync(string fileName);

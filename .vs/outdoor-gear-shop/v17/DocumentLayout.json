@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\services\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\services\\cloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\interfaces\\icloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\interfaces\\icloudinaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +38,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\MongoDbSettings.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\MongoDbSettings.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\MongoDbSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:38:42.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductService\\ProductService.API\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:23:17.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\appsettings.json",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\appsettings.json",
+              "RelativeToolTip": "ProductService\\ProductService.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-23T23:06:56.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA7wBUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:00:24.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CloudinaryService.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\CloudinaryService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Services\\CloudinaryService.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\CloudinaryService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Services\\CloudinaryService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T22:58:31.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICloudinaryService.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Interfaces\\ICloudinaryService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Interfaces\\ICloudinaryService.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Interfaces\\ICloudinaryService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Interfaces\\ICloudinaryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T22:58:12.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\Program.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.API\\Program.cs",
+              "RelativeToolTip": "ProductService\\ProductService.API\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T22:47:26.738Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"

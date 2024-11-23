@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IpIYOHDIAIZ1VLMmGFVSFVvQfjN6pWpBuD5mVOQh3FnewibYZN7HBBQpLtRjb2JCTqqVeu08zZY32eLcPWyRhw==",
+  "dgSpecHash": "4gwAkXa4gZoS9oMbB9lU/0KXKqzDG2KQFYEF2GiJWtOVij2riZFtYuoof4TuKQFRJ/Eiaclx+3vEGx8M/fEAvA==",
   "success": true,
-  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\productService\\ProductService.Domain\\ProductService.Domain.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

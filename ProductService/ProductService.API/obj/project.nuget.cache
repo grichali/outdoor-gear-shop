@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iOQa0X9k589PHGgFjiUk36+dlbqfE9xTIXRk8KMzFpodgk9U6tsaJuB7pp5WcjSRRTXGxA66TK73paY05pdNFQ==",
+  "dgSpecHash": "QTR46NEo0mv0nr1zoHWAIpIPrZ2/EtnMPMo0i/9XWyrl1F7JKXYoeIhcunZqhW+9ONs6HF6Hu3ggRhJNXgGWPg==",
   "success": true,
-  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Api\\ProductService.API.csproj",
+  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\productService\\productService.Api\\ProductService.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p\\.nuget\\packages\\cloudinarydotnet\\1.26.2\\cloudinarydotnet.1.26.2.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

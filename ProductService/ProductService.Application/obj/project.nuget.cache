@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUFKfQSAAIdPhEqNc8mNGNBdHOT5G3vb3yNOJlxAJeCyFCNRg03Hd4D1zCSPXfNW5/76NHAdXYI4uH5K9wUIFQ==",
+  "dgSpecHash": "lzMqErgEJ8uEMQBBNqvQa7XEroxS9KB8PxIGVmY4J4QYdPx8JNkVmwuOr3qGfDT6MTT+bXdY07xchH8K270AWw==",
   "success": true,
-  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\productService\\ProductService.Application\\ProductService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p\\.nuget\\packages\\cloudinarydotnet\\1.26.2\\cloudinarydotnet.1.26.2.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
@@ -76,12 +76,5 @@
     "C:\\Users\\p\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

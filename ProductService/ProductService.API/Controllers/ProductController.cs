@@ -9,7 +9,7 @@ namespace ProductService.API.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
-        ProductController(IProductService productService)
+        public ProductController(IProductService productService)
         {
             _productService = productService;
         }

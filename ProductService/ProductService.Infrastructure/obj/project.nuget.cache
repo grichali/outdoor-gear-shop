@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NXiJLEtaff3whteafgz3BZQhTJR43yrFh8f+aaFBBNARGQUVh2+srvXC4gbHMpcIQzXsSMwu+iJ371I0TjBkog==",
+  "dgSpecHash": "V+l2ig6ee5HQclp82DevOznlKFTIWWQ6/hSfYMmjb1rCiirFGw3P8M4tuoXP2Y1O0TDLIqXqc276y29NFwc2fw==",
   "success": true,
-  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+  "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\productService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\p\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
@@ -22,12 +22,5 @@
     "C:\\Users\\p\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
