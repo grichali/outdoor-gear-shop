@@ -67,8 +67,11 @@ namespace ProductService.Application.Services
                 {
                     Image image = await _imageRepository.GetByIdAsync(imageid);
 
-                    // todo : DELETE THE image.url FROM CLOUDINARY
-
+                    bool deleteImage = await _cloudinary.DeleteImageAsync(image.Url);
+                    if(!deleteImage)
+                    {
+                        return false;
+                    }
                     await _imageRepository.DeleteAsync(image.Id);
                 }
 
@@ -103,9 +106,47 @@ namespace ProductService.Application.Services
             return product.toProductDto(imageurls);
         }
 
-        public Task UpdateProductAsync(string id, ProductDto productDto)
+        public async Task<ProductDto> UpdateProductAsync(string id, UpdateProductDto productDto)
         {
-            throw new NotImplementedException();
+            Product product = await _productRepository.GetByIdAsync(id);
+            if(product == null)
+            {
+                return null;
+            }
+            List<string> imagesToDelete = product.ImageIds.Except(productDto.imageIds).ToList();
+            List<string> imageToKeep = product.ImageIds.Intersect(productDto.imageIds).ToList();
+            foreach(string imageId in imagesToDelete)
+            {
+                await _imageRepository.DeleteAsync(imageId);
+            }
+            foreach(string imageId in imageToKeep)
+            {
+                Image image = await _imageRepository.GetByIdAsync(imageId);
+                if(image != null && !productDto.ImageUrls.Contains(image.Url)){
+                    image.Url = productDto.ImageUrls.FirstOrDefault(url => url == image.Url) ?? image.Url;
+                    await _imageRepository.UpadateAsync(image);
+                }
+            }
+            product.Name = productDto.Name;
+            product.Description = productDto.Description;
+            product.Price = productDto.Price;
+            product.State = productDto.State;
+            product.ImageIds = productDto.imageIds;
+            await _productRepository.UpdateAsync(product);
+
+            return new ProductDto
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                State = product.State,
+                ImageUrls = product.ImageIds
+                    .Select(async id => (await _imageRepository.GetByIdAsync(id))?.Url)
+                    .Where(task => task.Result != null)
+                    .Select(task => task.Result)
+                    .ToList()
+            };
+
         }
-    }
 }

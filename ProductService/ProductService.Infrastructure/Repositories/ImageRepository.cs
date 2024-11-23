@@ -42,5 +42,17 @@ namespace ProductService.Infrastructure.Repositories
 
             return image;
         }
+
+        public async Task<Image> UpadateAsync(Image image)
+        {
+            FilterDefinition<Image> filter = Builders<Image>.Filter.Eq(image => image.Id,image.Id);
+            ReplaceOneResult result = await _db.Images.ReplaceOneAsync(filter, image);
+            if (result.IsAcknowledged && result.ModifiedCount > 0)
+            {
+                return image;
+            }
+
+            return null;
+        }
     }
 }

@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3D7DCB-4EB4-4010-9A07-5344B68324D0}|ProductService\\ProductService.Domain\\ProductService.Domain.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.domain\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3D7DCB-4EB4-4010-9A07-5344B68324D0}|ProductService\\ProductService.Domain\\ProductService.Domain.csproj|solutionrelative:productservice\\productservice.domain\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|d:\\bureau\\gi\\s5\\outdoor-gear-shop\\productservice\\productservice.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowEoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:38:28.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\Interfaces\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Domain\\Interfaces\\IImageRepository.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\Interfaces\\IImageRepository.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Domain\\Interfaces\\IImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:37:51.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Dtos\\ProductDto.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Dtos\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:54:34.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Dtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Dtos\\UpdateProductDto.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Dtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Dtos\\UpdateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:12:37.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Repositories\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\Repositories\\ImageRepository.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Repositories\\ImageRepository.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\Repositories\\ImageRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:59:55.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:49:04.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAswIcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:48:58.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

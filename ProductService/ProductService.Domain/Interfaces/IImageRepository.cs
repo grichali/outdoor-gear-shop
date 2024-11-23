@@ -12,6 +12,6 @@ namespace ProductService.Domain.Interfaces
         Task<Image> AddAsync(Image image);
         Task<bool> DeleteAsync(string id);
         Task<Image> GetByIdAsync(string imageId);
-
+        Task<Image> UpadateAsync(Image image);
     }
 }
