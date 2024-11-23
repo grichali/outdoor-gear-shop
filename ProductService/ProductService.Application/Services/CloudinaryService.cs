@@ -7,10 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ICloudinary = ProductService.Application.Interfaces.ICloudinary;
 
 namespace ProductService.Application.Services
 {
-    public class CloudinaryService : Interfaces.ICloudinary
+    public class CloudinaryService : ICloudinary
     {
         private readonly Cloudinary _cloudinary;
         CloudinaryService(Cloudinary cloudinary)

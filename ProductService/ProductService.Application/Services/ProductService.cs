@@ -11,12 +11,12 @@ using ProductService.Domain.Interfaces;
 
 namespace ProductService.Application.Services
 {
-    public class ProductService : IProductService
+    public class ProductServ : IProductService
     {
         private IProductRepository _productRepository;
         private IImageRepository _imageRepository;
         private readonly ICloudinary _cloudinary;
-        public ProductService(IProductRepository productRepository, ICloudinary cloudinary, IImageRepository imageRepository)
+        public ProductServ(IProductRepository productRepository, ICloudinary cloudinary, IImageRepository imageRepository)
         {
             _productRepository = productRepository;
             _cloudinary = cloudinary;
