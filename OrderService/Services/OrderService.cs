@@ -2,7 +2,7 @@
 
 namespace OrderService.Services
 {
-    public class OrderService : IOrderService
+    public class OrderServ : IOrderService
     {
     }
 }
