@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\OrderService.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
         "packagesPath": "C:\\Users\\p\\.nuget\\packages\\",
         "outputPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\obj\\",
+=======
+    "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
+        "projectName": "OrderService",
+        "projectPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
+        "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\obj\\",
+>>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\p\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,10 +68,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
+=======
+>>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -78,7 +99,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+>>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
         }
       }
     }

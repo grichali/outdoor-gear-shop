@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jDAJ4ahORr9O8AYoBMW8G4QQobVtFdr06LA5S84XS61ImiSrFzl20i+03oUrqwflCvyBsQLTKUyS+xIk1izt5A==",
   "success": true,
   "projectFilePath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
@@ -11,6 +12,18 @@
     "C:\\Users\\p\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\p\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+=======
+  "dgSpecHash": "D/oAgXDO68KxjA/3GrEhkW9nfTMiAQlUFE4zp3U1mTXe5ZxnGtRQjNvZAJkSh9ub4QQIcmlSsNYN4NJLmSgKew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+>>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
   ],
   "logs": []
 }
