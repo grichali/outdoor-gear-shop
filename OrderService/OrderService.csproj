@@ -7,10 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.2" />
-=======
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 

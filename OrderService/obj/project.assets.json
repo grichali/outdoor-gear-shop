@@ -2,7 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-<<<<<<< HEAD
       "Microsoft.AspNetCore.OpenApi/8.0.2": {
         "type": "package",
         "dependencies": {
@@ -22,8 +21,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-=======
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -35,11 +32,7 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.OpenApi/1.4.3": {
-=======
-      "Microsoft.OpenApi/1.2.3": {
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -118,7 +111,6 @@
     }
   },
   "libraries": {
-<<<<<<< HEAD
     "Microsoft.AspNetCore.OpenApi/8.0.2": {
       "sha512": "59xQBsH+2at3+rrLazCNbaLhS1gmMY2fT1rSxa116EQ2oCbdULerytaYtr0h5iew+BVwJZNsWgvU3fOpt74DCA==",
       "type": "package",
@@ -134,8 +126,6 @@
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-=======
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -367,7 +357,6 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.OpenApi/1.4.3": {
       "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "type": "package",
@@ -379,22 +368,6 @@
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
         "microsoft.openapi.1.4.3.nupkg.sha512",
-=======
-    "Microsoft.OpenApi/1.2.3": {
-      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
-      "type": "package",
-      "path": "microsoft.openapi/1.2.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net46/Microsoft.OpenApi.dll",
-        "lib/net46/Microsoft.OpenApi.pdb",
-        "lib/net46/Microsoft.OpenApi.xml",
-        "lib/netstandard2.0/Microsoft.OpenApi.dll",
-        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
-        "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.1.2.3.nupkg.sha512",
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
         "microsoft.openapi.nuspec"
       ]
     },
@@ -482,47 +455,28 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-<<<<<<< HEAD
       "Microsoft.AspNetCore.OpenApi >= 8.0.2",
-=======
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\p\\.nuget\\packages\\": {},
-=======
     "C:\\Users\\ali\\.nuget\\packages\\": {},
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
-      "projectName": "OrderService",
-      "projectPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
-      "packagesPath": "C:\\Users\\p\\.nuget\\packages\\",
-      "outputPath": "D:\\bureau\\GI\\s5\\outdoor-gear-shop\\OrderService\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
       "projectName": "OrderService",
       "projectPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
       "packagesPath": "C:\\Users\\ali\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\obj\\",
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\p\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "C:\\Users\\ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -555,13 +509,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-<<<<<<< HEAD
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.2, )"
           },
-=======
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.4.0, )"
@@ -586,12 +537,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
-=======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
->>>>>>> bf80052dd5395eaf29525a78eb3f58e5c1678bd6
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
