@@ -1,3 +1,6 @@
+using Microsoft.Extensions.Options;
+using MongoDB.Driver;
+using OrderService;
 using OrderService.Interfaces;
 using OrderService.Repositories;
 using OrderService.Services;
@@ -12,7 +15,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IOrderRepository, OrderRepositorycs>();
 builder.Services.AddScoped<IOrderService, OrderServ>();
+builder.Services.Configure<MongoDbSettings>(
+        builder.Configuration.GetSection("MongoDbSettings")
+);
 
+builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
+{
+    var settings = serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value;
+    return new MongoClient(settings.MongoDbConnectionString);
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
