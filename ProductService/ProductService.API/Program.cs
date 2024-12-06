@@ -23,7 +23,7 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
 });
 
 
-builder.Services.AddScoped<IProductService,ProductServ>();
+builder.Services.AddScoped<IProductService,ProductServ>(); 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IImageRepository, ImageRepository>();
 builder.Services.AddScoped<ICloudinaryService,CloudinaryService>();

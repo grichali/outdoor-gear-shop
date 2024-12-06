@@ -10,3 +10,15 @@ D:\bureau\GI\s5\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug
 D:\bureau\GI\s5\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\refint\ProductService.Domain.dll
 D:\bureau\GI\s5\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.pdb
 D:\bureau\GI\s5\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ref\ProductService.Domain.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.deps.json
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\bin\Debug\net8.0\ProductService.Domain.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.AssemblyInfoInputs.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.AssemblyInfo.cs
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.sourcelink.json
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\refint\ProductService.Domain.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ProductService.Domain.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Domain\obj\Debug\net8.0\ref\ProductService.Domain.dll

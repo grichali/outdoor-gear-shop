@@ -10,24 +10,31 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<IOrderRepository, OrderRepositorycs>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderService, OrderServ>();
 builder.Services.Configure<MongoDbSettings>(
         builder.Configuration.GetSection("MongoDbSettings")
 );
 
-builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
+builder.Services.AddSingleton<IMongoClient>(sp =>
 {
-    var settings = serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value;
+    var settings = sp.GetRequiredService<IOptions<MongoDbSettings>>().Value;
     return new MongoClient(settings.MongoDbConnectionString);
 });
+
+builder.Services.AddSingleton(sp =>
+{
+    var client = sp.GetRequiredService<IMongoClient>();
+    var settings = sp.GetRequiredService<IOptions<MongoDbSettings>>().Value;
+    return client.GetDatabase(settings.DatabaseName);
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (true)
 {
     app.UseSwagger();
     app.UseSwaggerUI();
