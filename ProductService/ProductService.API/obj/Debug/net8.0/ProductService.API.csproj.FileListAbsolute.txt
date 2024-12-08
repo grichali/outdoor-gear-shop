@@ -94,3 +94,9 @@ C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\obj\Deb
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\obj\Debug\net8.0\ProductService.API.pdb
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\obj\Debug\net8.0\ProductService.API.genruntimeconfig.cache
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\obj\Debug\net8.0\ref\ProductService.API.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\bin\Debug\net8.0\MassTransit.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\bin\Debug\net8.0\Contracts.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.API\bin\Debug\net8.0\Contracts.pdb

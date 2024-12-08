@@ -30,3 +30,5 @@ C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastruct
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\refint\ProductService.Infrastructure.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\ProductService.Infrastructure.pdb
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\ref\ProductService.Infrastructure.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\Contracts.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\Contracts.pdb

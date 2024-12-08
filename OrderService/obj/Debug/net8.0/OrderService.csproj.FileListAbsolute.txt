@@ -38,3 +38,9 @@ C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\obj\Debug\net8.0\refint\Orde
 C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\obj\Debug\net8.0\OrderService.pdb
 C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\obj\Debug\net8.0\OrderService.genruntimeconfig.cache
 C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\obj\Debug\net8.0\ref\OrderService.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\MassTransit.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\MassTransit.Abstractions.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Contracts.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Contracts.pdb

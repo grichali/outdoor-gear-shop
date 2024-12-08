@@ -1,3 +1,5 @@
+using Contracts.EventContracts;
+using MassTransit;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using OrderService;
@@ -6,8 +8,6 @@ using OrderService.Repositories;
 using OrderService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -30,7 +30,45 @@ builder.Services.AddSingleton(sp =>
     var settings = sp.GetRequiredService<IOptions<MongoDbSettings>>().Value;
     return client.GetDatabase(settings.DatabaseName);
 });
+builder.Services.AddMassTransit(x =>
+{
 
+/*    x.AddConsumer<FirstEventConsumer>();
+
+    x.AddConsumer<SecondEventConsumer>();*/
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+        cfg.Message<IAddOrderEvent>(m =>
+        {
+            m.SetEntityName("add_order_exchange");
+        });
+
+        cfg.ConfigureEndpoints(context);
+
+ /*       cfg.ReceiveEndpoint("first-publish-queue", e =>
+        {
+            e.Bind("publish_exchange");
+            e.ConfigureConsumer<FirstEventConsumer>(context);
+        });
+        cfg.ReceiveEndpoint("second-publish-queue", e =>
+        {
+            e.Bind("publish_exchange");
+            e.ConfigureConsumer<SecondEventConsumer>(context);
+        });*/
+
+
+
+    });
+});
+
+builder.Services.AddMassTransitHostedService();
 var app = builder.Build();
 
 if (true)

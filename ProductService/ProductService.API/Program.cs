@@ -9,6 +9,9 @@ using ProductService.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Diagnostics;
 using ProductService.API;
 using ProductService.Infrastructure.context;
+using MassTransit;
+using ProductService.Infrastructure.Consumers;
+using RabbitMQ.Client;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -34,6 +37,39 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton(x => new Cloudinary(builder.Configuration["Cloudinary:CloudinaryUrl"]));
+
+builder.Services.AddMassTransit(x =>
+{
+
+    x.AddConsumer<AddOrderConsumer>();
+
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+
+        cfg.ConfigureEndpoints(context);
+
+        cfg.ReceiveEndpoint("first-publish-queue", e =>
+        {
+            e.Bind("add_order_exchange", x =>
+            {
+                x.ExchangeType = ExchangeType.Fanout;
+            });
+            e.ConfigureConsumer<AddOrderConsumer>(context);
+        });
+
+
+
+    });
+});
+
+builder.Services.AddMassTransitHostedService();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
