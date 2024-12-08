@@ -33,10 +33,6 @@ builder.Services.AddSingleton(sp =>
 builder.Services.AddMassTransit(x =>
 {
 
-/*    x.AddConsumer<FirstEventConsumer>();
-
-    x.AddConsumer<SecondEventConsumer>();*/
-
     x.UsingRabbitMq((context, cfg) =>
     {
 
@@ -51,19 +47,6 @@ builder.Services.AddMassTransit(x =>
         });
 
         cfg.ConfigureEndpoints(context);
-
- /*       cfg.ReceiveEndpoint("first-publish-queue", e =>
-        {
-            e.Bind("publish_exchange");
-            e.ConfigureConsumer<FirstEventConsumer>(context);
-        });
-        cfg.ReceiveEndpoint("second-publish-queue", e =>
-        {
-            e.Bind("publish_exchange");
-            e.ConfigureConsumer<SecondEventConsumer>(context);
-        });*/
-
-
 
     });
 });

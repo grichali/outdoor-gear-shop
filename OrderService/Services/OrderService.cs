@@ -20,8 +20,8 @@ namespace OrderService.Services
 
         public async Task<Order> CreateOrder(Order order)
         {
-/*            Order or = await _orderRepository.createOrder(order);
-*/            IAddOrderEvent addOrderEvent = new AddOrderEvent() { productId = order.productId };
+            Order or = await _orderRepository.createOrder(order);
+            IAddOrderEvent addOrderEvent = new AddOrderEvent() { productId = order.productId };
             await bus.Publish<IAddOrderEvent>(addOrderEvent);
 
             return order ;
