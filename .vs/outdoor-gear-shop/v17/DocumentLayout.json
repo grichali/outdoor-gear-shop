@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Program.cs",
-              "RelativeDocumentMoniker": "OrderService\\Program.cs",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Program.cs",
-              "RelativeToolTip": "OrderService\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:14:21.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "OrderService\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Services\\OrderService.cs",
-              "RelativeToolTip": "OrderService\\Services\\OrderService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:14:16.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "OrderService\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "OrderService\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowA0AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T19:13:54.535Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderService\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-08T14:39:44.344Z",
               "EditorCaption": ""
             }
           ]
