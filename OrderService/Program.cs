@@ -1,4 +1,5 @@
 using Contracts.EventContracts;
+using GrpcOrderToProduct;
 using MassTransit;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -52,6 +53,11 @@ builder.Services.AddMassTransit(x =>
 });
 
 builder.Services.AddMassTransitHostedService();
+
+builder.Services.AddGrpcClient<GrpcProductService.GrpcProductServiceClient>(options =>
+{
+    options.Address = new Uri("https://localhost:5001"); // Set to your ProductService URL
+});
 var app = builder.Build();
 
 if (true)

@@ -44,3 +44,10 @@ C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\MassTransit
 C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Contracts.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Contracts.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Grpc.AspNetCore.Server.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Grpc.Core.Api.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Grpc.Net.Client.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Grpc.Net.ClientFactory.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\OrderService\bin\Debug\net8.0\Grpc.Net.Common.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0hXESKtZOMkWnSiAZCxfavpOD30tWO820l0AdQVla0+Xmlt9XY5NBOdDzoniqVurI+hbcuBi9l5fM8i8TwRdMw==",
+  "dgSpecHash": "1mXQXic3hfxIPcu17Jz6ZO60yyVnDKc/00OCcw/4wWOe50sVtibhx560TdfeUZBQxUoe0pfnxsJ8/xfP+Vwkrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\ali\\.nuget\\packages\\grpc.net.client\\2.67.0\\grpc.net.client.2.67.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\grpc.net.clientfactory\\2.67.0\\grpc.net.clientfactory.2.67.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\grpc.net.common\\2.67.0\\grpc.net.common.2.67.0.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\grpc.tools\\2.68.1\\grpc.tools.2.68.1.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\masstransit\\8.3.3\\masstransit.8.3.3.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\masstransit.abstractions\\8.3.3\\masstransit.abstractions.8.3.3.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\masstransit.rabbitmq\\8.3.3\\masstransit.rabbitmq.8.3.3.nupkg.sha512",

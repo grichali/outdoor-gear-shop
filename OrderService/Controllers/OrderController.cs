@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using OrderService.Interfaces;
 using OrderService.Model;
+using GrpcOrderToProduct;
 
 namespace OrderService.Controllers
 {
@@ -10,17 +11,27 @@ namespace OrderService.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
-
-        public OrderController(IOrderService orderService)
+        private readonly GrpcProductService.GrpcProductServiceClient _grpcProductServiceClient;
+        public OrderController(IOrderService orderService, GrpcProductService.GrpcProductServiceClient grpcProductServiceClient)
         {
             _orderService = orderService;
+            _grpcProductServiceClient = grpcProductServiceClient;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] Order order)
         {
-            var createdOrder = await _orderService.CreateOrder(order);
-            return CreatedAtAction(nameof(GetBuyerOrder), new { buyerId = createdOrder.buyerId }, createdOrder);
+            var productRequest = new ProductRequest { ProductId = order.productId };
+            var productResponse = await _grpcProductServiceClient.CheckProductAvailabilityAsync(productRequest);
+
+            if (!productResponse.Available)
+            {
+                return Conflict(new { message = "Product is not available." });
+            }
+            return Ok("product is there");
+
+/*            var createdOrder = await _orderService.CreateOrder(order);
+            return CreatedAtAction(nameof(GetBuyerOrder), new { buyerId = createdOrder.buyerId }, createdOrder);*/
         }
 
         [HttpDelete("{id}")]

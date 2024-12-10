@@ -24,6 +24,13 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
     var settings = serviceProvider.GetRequiredService<IOptions<MongoDbSettings>>().Value;
     return new MongoClient(settings.MongoDbConnectionString);
 });
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5001, listenOptions =>
+    {
+        listenOptions.UseHttps();  
+    }); 
+});
 
 
 builder.Services.AddScoped<IProductService,ProductServ>(); 
