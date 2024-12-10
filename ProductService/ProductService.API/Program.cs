@@ -70,6 +70,10 @@ builder.Services.AddMassTransit(x =>
 });
 
 builder.Services.AddMassTransitHostedService();
+
+
+builder.Services.AddGrpc();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -100,5 +104,8 @@ app.UseExceptionHandler(errorApp =>
         await context.Response.WriteAsJsonAsync(errorResponse);
     });
 });
+
+app.MapGrpcService<ProductServ>();
+app.MapGet("/", () => "This is a gRPC server. Use a gRPC client to communicate.");
 
 app.Run();

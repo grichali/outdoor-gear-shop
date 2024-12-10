@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Grpc.AspNetCore" Version="2.67.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.68.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
@@ -16,6 +21,7 @@
     <ProjectReference Include="..\ProductService.Application\ProductService.Application.csproj" />
     <ProjectReference Include="..\ProductService.Domain\ProductService.Domain.csproj" />
     <ProjectReference Include="..\ProductService.Infrastructure\ProductService.Infrastructure.csproj" />
+	<Protobuf Include="..\..\Contracts\Protos\product.proto" GrpcServices="Server" />
   </ItemGroup>
 
 </Project>

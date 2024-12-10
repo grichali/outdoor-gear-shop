@@ -8,20 +8,34 @@ using ProductService.Application.Interfaces;
 using ProductService.Application.Mappers;
 using ProductService.Domain.Entities;
 using ProductService.Domain.Interfaces;
+using Grpc.Core;
+using GrpcOrderToProduct;
 
 namespace ProductService.Application.Services
 {
-    public class ProductServ : IProductService
+    public class ProductServ : GrpcProductService.GrpcProductServiceBase, IProductService
+
     {
         private IProductRepository _productRepository;
         private IImageRepository _imageRepository;
         private readonly ICloudinaryService _cloudinary;
+
         public ProductServ(IProductRepository productRepository, ICloudinaryService cloudinary, IImageRepository imageRepository)
         {
             _productRepository = productRepository;
             _cloudinary = cloudinary;
             _imageRepository = imageRepository;
         }
+
+        public override async Task<ProductResponse> CheckProductAvailability(ProductRequest request, ServerCallContext context)
+        {
+            Product product = await _productRepository.GetByIdAsync(request.ProductId);
+
+            bool isAvailable = product != null;
+
+            return new ProductResponse { Available = isAvailable };
+        }
+
         public async Task<ProductDto> CreateProductAsync(CreateProductDto productDto)
         {
             List<string> imagesid = new List<string>();

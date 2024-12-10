@@ -1,0 +1,20 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcOrderToProduct";
+
+package GrpcProductService;
+
+// Request message containing the product ID
+message ProductRequest {
+    string product_id = 1;
+}
+
+// Response message indicating availability of the product
+message ProductResponse {
+    bool available = 1;
+}
+
+// Service definition for ProductService
+service GrpcProductService {
+    rpc CheckProductAvailability (ProductRequest) returns (ProductResponse);
+}

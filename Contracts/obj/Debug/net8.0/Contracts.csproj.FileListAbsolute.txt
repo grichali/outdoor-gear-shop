@@ -1,6 +1,7 @@
 C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\bin\Debug\net8.0\Contracts.deps.json
 C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\bin\Debug\net8.0\Contracts.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\bin\Debug\net8.0\Contracts.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Debug\net8.0\Contracts.csproj.AssemblyReference.cache
 C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Debug\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfoInputs.cache
 C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Debug\net8.0\Contracts.AssemblyInfo.cs

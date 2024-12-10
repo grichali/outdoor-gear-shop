@@ -17,7 +17,9 @@ D:\bureau\GI\s5\outdoor-gear-shop\ProductService\ProductService.Infrastructure\o
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\ProductService.Infrastructure.deps.json
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\ProductService.Infrastructure.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\ProductService.Infrastructure.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\Contracts.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\ProductService.Domain.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\Contracts.pdb
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\ProductService.Domain.pdb
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\ProductService.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\ProductService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
@@ -30,5 +32,3 @@ C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastruct
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\refint\ProductService.Infrastructure.dll
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\ProductService.Infrastructure.pdb
 C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\obj\Debug\net8.0\ref\ProductService.Infrastructure.dll
-C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\Contracts.dll
-C:\Users\ali\Desktop\outdoor-gear-shop\ProductService\ProductService.Infrastructure\bin\Debug\net8.0\Contracts.pdb
