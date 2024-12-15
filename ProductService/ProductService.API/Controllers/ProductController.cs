@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProductService.Application.Dtos;
 using ProductService.Application.Interfaces;
+using ProductService.Domain.Interfaces;
 
 namespace ProductService.API.Controllers
 {
@@ -9,11 +10,13 @@ namespace ProductService.API.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
+
         public ProductController(IProductService productService)
         {
             _productService = productService;
         }
-        [HttpGet]
+
+        [HttpGet("getall")]
         public async Task<IActionResult> GetAllProduct()
         {
             List<ProductDto> products = await _productService.GetAllProductsAsync();
@@ -23,13 +26,15 @@ namespace ProductService.API.Controllers
             }
             return Ok(products);
         }
-        [HttpPost]
+        
+        [HttpPost("create")]
         public async Task<IActionResult> CreateProduct([FromForm] CreateProductDto productDto)
         {
             ProductDto product = await _productService.CreateProductAsync(productDto);
             return Ok(product);
         }
-        [HttpDelete("/{id}")]
+
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteAsync([FromRoute] string id)
         {
             bool result =await _productService.DeleteProductAsync(id);
@@ -39,7 +44,7 @@ namespace ProductService.API.Controllers
             }
             return BadRequest("product can't be deleted");
         }
-        [HttpGet("{id}")]
+        [HttpGet("getbyid/{id}")]
         public async Task<IActionResult> GetProductById([FromRoute] string id)
         {
             ProductDto product = await _productService.GetProductByIdAsync(id);
@@ -49,7 +54,8 @@ namespace ProductService.API.Controllers
             }
             return Ok(product);
         }
-        [HttpPut("{id}")]
+
+        [HttpPut("update/{id}")]
         public async Task<IActionResult> UpdateProduct([FromRoute] string id ,[FromBody] UpdateProductDto productDto)
         {
             ProductDto product = await _productService.UpdateProductAsync(id,productDto);

@@ -10,7 +10,7 @@ namespace ProductService.Application.Interfaces
     public interface IProductService
     {
         Task<ProductDto> CreateProductAsync(CreateProductDto request);
-        Task<ProductDto> GetProductByIdAsync(string id);
+        Task<ProductDto?> GetProductByIdAsync(string id);
         Task<List<ProductDto>> GetAllProductsAsync();
         Task<ProductDto> UpdateProductAsync(string id, UpdateProductDto productDto);
         Task<bool> DeleteProductAsync(string id);

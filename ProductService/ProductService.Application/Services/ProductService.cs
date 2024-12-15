@@ -19,12 +19,14 @@ namespace ProductService.Application.Services
         private IProductRepository _productRepository;
         private IImageRepository _imageRepository;
         private readonly ICloudinaryService _cloudinary;
+        private readonly ICacheService _cacheService;
 
-        public ProductServ(IProductRepository productRepository, ICloudinaryService cloudinary, IImageRepository imageRepository)
+        public ProductServ(IProductRepository productRepository, ICloudinaryService cloudinary, IImageRepository imageRepository,ICacheService cacheService)
         {
             _productRepository = productRepository;
             _cloudinary = cloudinary;
             _imageRepository = imageRepository;
+            _cacheService = cacheService;
         }
 
         public override async Task<ProductResponse> CheckProductAvailability(ProductRequest request, ServerCallContext context)
@@ -108,20 +110,32 @@ namespace ProductService.Application.Services
             return productDtos;
         }
 
-        public async Task<ProductDto> GetProductByIdAsync(string id)
+        public async Task<ProductDto?> GetProductByIdAsync(string id)
         {
+            ProductDto? cachedProduct = await _cacheService.GetAsync<ProductDto>(id);
+            if (cachedProduct != null)
+            {
+                return cachedProduct;
+            }
+
             Product product = await _productRepository.GetByIdAsync(id);
             if (product == null)
             {
                 return null;
             }
+
             List<string> imageurls = new List<string>();
             foreach (string imageId in product.ImageIds)
             {
                 Image image = await _imageRepository.GetByIdAsync(imageId);
                 imageurls.Add(image.Url);
             }
-            return product.toProductDto(imageurls);
+
+            ProductDto productDto = product.toProductDto(imageurls);
+
+            await _cacheService.SetAsync(id, productDto, TimeSpan.FromMinutes(10));
+
+            return productDto;
         }
 
         public async Task<ProductDto> UpdateProductAsync(string id, UpdateProductDto productDto)

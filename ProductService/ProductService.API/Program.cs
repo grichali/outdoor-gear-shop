@@ -35,7 +35,7 @@ builder.WebHost.ConfigureKestrel(options =>
 
 builder.Services.AddStackExchangeRedisCache(options =>
 {
-    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+    options.Configuration = builder.Configuration["Redis:ConnectionString"];
 });
 
 
