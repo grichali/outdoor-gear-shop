@@ -12,6 +12,7 @@ using ProductService.Infrastructure.context;
 using MassTransit;
 using ProductService.Infrastructure.Consumers;
 using RabbitMQ.Client;
+using ProductService.Infrastructure.Cache;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -32,11 +33,17 @@ builder.WebHost.ConfigureKestrel(options =>
     }); 
 });
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+});
+
 
 builder.Services.AddScoped<IProductService,ProductServ>(); 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IImageRepository, ImageRepository>();
 builder.Services.AddScoped<ICloudinaryService,CloudinaryService>();
+builder.Services.AddScoped<ICacheService, CacheService>();
 builder.Services.AddScoped<MongoDbContext>();
 
 builder.Services.AddControllers();

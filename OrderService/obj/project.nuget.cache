@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1mXQXic3hfxIPcu17Jz6ZO60yyVnDKc/00OCcw/4wWOe50sVtibhx560TdfeUZBQxUoe0pfnxsJ8/xfP+Vwkrg==",
+  "dgSpecHash": "LHjLLVzbQpVMN1SQN8wJoxvArgpN8olPzVFhLiS/zRoloRMAMT8O1PMVSrtjJAuwK4sxo0lSANozX9DedscsDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\ali\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\mongodb.bson\\3.0.0\\mongodb.bson.3.0.0.nupkg.sha512",
     "C:\\Users\\ali\\.nuget\\packages\\mongodb.driver\\3.0.0\\mongodb.driver.3.0.0.nupkg.sha512",

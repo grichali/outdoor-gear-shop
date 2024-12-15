@@ -204,7 +204,7 @@
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",

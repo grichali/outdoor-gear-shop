@@ -43,16 +43,9 @@ namespace ProductService.Infrastructure.Repositories
 
         public async Task<Product> GetByIdAsync(string id)
         {
-/*            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(prod => prod.Id, id);
-*/
-            /*            Product product = await _db.Products.Find(filter).FirstOrDefaultAsync();
-            */
-            Product product = new Product
-            {
-                Id = "hshs",
-                Price = 44,
+            FilterDefinition<Product> filter = Builders<Product>.Filter.Eq(prod => prod.Id, id);
 
-            };
+                        Product product = await _db.Products.Find(filter).FirstOrDefaultAsync();
             return product;
         }
 

@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\productservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\productservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.api\\productservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\productservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\cache\\cacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3D7DCB-4EB4-4010-9A07-5344B68324D0}|ProductService\\ProductService.Domain\\ProductService.Domain.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.domain\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D3D7DCB-4EB4-4010-9A07-5344B68324D0}|ProductService\\ProductService.Domain\\ProductService.Domain.csproj|solutionrelative:productservice\\productservice.domain\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A116272C-3F7F-4A65-ABD8-6ED6FED7499D}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,14 +51,6 @@
       "RelativeMoniker": "D:0:0:{BC7CFF0E-5C2E-40A7-8346-78094ADC76B3}|ProductService\\ProductService.Application\\ProductService.Application.csproj|solutionrelative:productservice\\productservice.application\\productservice.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.api\\productservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2F03904B-682E-4093-8CBD-38EE6F43C0D0}|ProductService\\ProductService.API\\ProductService.API.csproj|solutionrelative:productservice\\productservice.api\\productservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}|Contracts\\Contracts.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\contracts\\contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}|Contracts\\Contracts.csproj|solutionrelative:contracts\\contracts.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -49,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}|Contracts\\Contracts.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\contracts\\eventcontracts\\iaddorderevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}|Contracts\\Contracts.csproj|solutionrelative:contracts\\eventcontracts\\iaddorderevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\productservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|solutionrelative:productservice\\productservice.infrastructure\\productservice.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{214E1CFA-08A1-464B-85F4-E5D2A6160EAF}|ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj|c:\\users\\ali\\desktop\\outdoor-gear-shop\\productservice\\productservice.infrastructure\\consumers\\addorderconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,11 +90,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\Interfaces\\ICacheService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Domain\\Interfaces\\ICacheService.cs",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Domain\\Interfaces\\ICacheService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Domain\\Interfaces\\ICacheService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T00:20:24.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CacheService.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Cache\\CacheService.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\Cache\\CacheService.cs",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Cache\\CacheService.cs",
+              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\Cache\\CacheService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T00:17:32.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\Program.cs",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\Program.cs",
+              "RelativeToolTip": "ProductService\\ProductService.API\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T15:23:18.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProductService.API.csproj",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\ProductService.API.csproj",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
+              "RelativeToolTip": "ProductService\\ProductService.API\\ProductService.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-08T15:29:51.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-09T23:53:30.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "product.proto",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\Protos\\product.proto",
+              "RelativeDocumentMoniker": "Contracts\\Protos\\product.proto",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\Protos\\product.proto",
+              "RelativeToolTip": "Contracts\\Protos\\product.proto",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-12-09T23:34:11.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderService.csproj",
+              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
+              "RelativeDocumentMoniker": "OrderService\\OrderService.csproj",
+              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
+              "RelativeToolTip": "OrderService\\OrderService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-10T00:53:28.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Program.cs",
               "RelativeDocumentMoniker": "OrderService\\Program.cs",
@@ -99,55 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderService.csproj",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
-              "RelativeDocumentMoniker": "OrderService\\OrderService.csproj",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\OrderService.csproj",
-              "RelativeToolTip": "OrderService\\OrderService.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-10T00:53:28.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "product.proto",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\Protos\\product.proto",
-              "RelativeDocumentMoniker": "Contracts\\Protos\\product.proto",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\Protos\\product.proto",
-              "RelativeToolTip": "Contracts\\Protos\\product.proto",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
-              "WhenOpened": "2024-12-09T23:34:11.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductService.API.csproj",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
-              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\ProductService.API.csproj",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\ProductService.API.csproj",
-              "RelativeToolTip": "ProductService\\ProductService.API\\ProductService.API.csproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T15:29:51.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\Program.cs",
-              "RelativeDocumentMoniker": "ProductService\\ProductService.API\\Program.cs",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\Program.cs",
-              "RelativeToolTip": "ProductService\\ProductService.API\\Program.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwHYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:23:18.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProductService.Application.csproj",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
               "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\ProductService.Application.csproj",
@@ -155,48 +206,51 @@
               "RelativeToolTip": "ProductService\\ProductService.Application\\ProductService.Application.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T23:46:48.101Z"
+              "WhenOpened": "2024-12-09T23:46:48.101Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "OrderService\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Controllers\\OrderController.cs",
               "RelativeToolTip": "OrderService\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBkAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T15:18:27.249Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
               "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAowDQAAAAbAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAAowDQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T01:53:42.603Z"
+              "WhenOpened": "2024-12-10T01:53:42.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "ProductService\\ProductService.Application\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Application\\Services\\ProductService.cs",
               "RelativeToolTip": "ProductService\\ProductService.Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA3wB8AAABDAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAYwB8AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T23:43:28.421Z"
+              "WhenOpened": "2024-12-09T23:43:28.421Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\Class1.cs",
               "RelativeDocumentMoniker": "Contracts\\Class1.cs",
@@ -204,11 +258,12 @@
               "RelativeToolTip": "Contracts\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:45:09.824Z"
+              "WhenOpened": "2024-12-08T14:45:09.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Contracts.csproj",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\Contracts.csproj",
               "RelativeDocumentMoniker": "Contracts\\Contracts.csproj",
@@ -216,11 +271,12 @@
               "RelativeToolTip": "Contracts\\Contracts.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T23:33:25.241Z"
+              "WhenOpened": "2024-12-09T23:33:25.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "IAddOrderEvent.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\Contracts\\EventContracts\\IAddOrderEvent.cs",
               "RelativeDocumentMoniker": "Contracts\\EventContracts\\IAddOrderEvent.cs",
@@ -228,35 +284,25 @@
               "RelativeToolTip": "Contracts\\EventContracts\\IAddOrderEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:19:05.822Z"
+              "WhenOpened": "2024-12-10T00:19:05.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductService.Infrastructure.csproj",
-              "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
-              "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-09T23:53:30.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProductService\\ProductService.API\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.API\\Properties\\launchSettings.json",
               "RelativeToolTip": "ProductService\\ProductService.API\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABsAAAAfAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAABRwBsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-08T17:13:43.419Z"
+              "WhenOpened": "2024-12-08T17:13:43.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AddOrderConsumer.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\ProductService\\ProductService.Infrastructure\\Consumers\\AddOrderConsumer.cs",
               "RelativeDocumentMoniker": "ProductService\\ProductService.Infrastructure\\Consumers\\AddOrderConsumer.cs",
@@ -264,11 +310,12 @@
               "RelativeToolTip": "ProductService\\ProductService.Infrastructure\\Consumers\\AddOrderConsumer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:25:30.273Z"
+              "WhenOpened": "2024-12-08T15:25:30.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\appsettings.json",
               "RelativeDocumentMoniker": "OrderService\\appsettings.json",
@@ -276,11 +323,12 @@
               "RelativeToolTip": "OrderService\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-08T16:51:31.383Z"
+              "WhenOpened": "2024-12-08T16:51:31.383Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "OrderService\\Services\\OrderService.cs",
@@ -288,11 +336,12 @@
               "RelativeToolTip": "OrderService\\Services\\OrderService.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAuwBYAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T15:17:44.49Z"
+              "WhenOpened": "2024-12-08T15:17:44.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AddOrderEvent.cs",
               "DocumentMoniker": "C:\\Users\\ali\\Desktop\\outdoor-gear-shop\\OrderService\\Events\\AddOrderEvent.cs",
               "RelativeDocumentMoniker": "OrderService\\Events\\AddOrderEvent.cs",
@@ -300,7 +349,8 @@
               "RelativeToolTip": "OrderService\\Events\\AddOrderEvent.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T14:52:16.915Z"
+              "WhenOpened": "2024-12-08T14:52:16.915Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -28,10 +28,8 @@ namespace OrderService.Controllers
             {
                 return Conflict(new { message = "Product is not available." });
             }
-            return Ok(productResponse);
-
-/*            var createdOrder = await _orderService.CreateOrder(order);
-            return CreatedAtAction(nameof(GetBuyerOrder), new { buyerId = createdOrder.buyerId }, createdOrder);*/
+            var createdOrder = await _orderService.CreateOrder(order);
+            return CreatedAtAction(nameof(GetBuyerOrder), new { buyerId = createdOrder.buyerId }, createdOrder);
         }
 
         [HttpDelete("{id}")]
