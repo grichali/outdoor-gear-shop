@@ -1,7 +1,7 @@
 # Use the ASP.NET runtime for the final image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
-EXPOSE 5001
+EXPOSE 5000
 
 # Use the .NET SDK for building the application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
