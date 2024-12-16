@@ -37,7 +37,7 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("localhost", "/", h =>
+        cfg.Host("rabbitmq", "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
@@ -56,7 +56,7 @@ builder.Services.AddMassTransitHostedService();
 
 builder.Services.AddGrpcClient<GrpcProductService.GrpcProductServiceClient>(options =>
 {
-    options.Address = new Uri("https://localhost:5001"); // Set to your ProductService URL
+    options.Address = new Uri("https://localhost:5001");
 });
 var app = builder.Build();
 
@@ -69,7 +69,7 @@ if (true)
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+ 
 app.MapControllers();
 
 app.Run();
