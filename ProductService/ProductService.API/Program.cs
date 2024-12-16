@@ -43,7 +43,7 @@ builder.Services.AddScoped<IProductService,ProductServ>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IImageRepository, ImageRepository>();
 builder.Services.AddScoped<ICloudinaryService,CloudinaryService>();
-builder.Services.AddScoped<ICacheService, CacheService>();
+builder.Services.AddSingleton<ICacheService, CacheService>();
 builder.Services.AddScoped<MongoDbContext>();
 
 builder.Services.AddControllers();
