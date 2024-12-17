@@ -58,10 +58,11 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("rabbitmq", "/", h =>
+        cfg.Host("rabbitmq",5672, "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
+
         });
 
         cfg.ConfigureEndpoints(context);
@@ -75,7 +76,7 @@ builder.Services.AddMassTransit(x =>
             e.ConfigureConsumer<AddOrderConsumer>(context);
         });
 
-
+        cfg.UseJsonSerializer();
 
     });
 });

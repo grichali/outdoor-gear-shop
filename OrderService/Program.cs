@@ -37,11 +37,16 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("rabbimq", "/", h =>
+        cfg.Host("rabbitmq",5672, "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
         });
+        cfg.UseMessageRetry(r => 
+        {
+            r.Interval(5, TimeSpan.FromSeconds(10)); // Retry 5 times with 10-second intervals
+        });
+
         cfg.Message<IAddOrderEvent>(m =>
         {
             m.SetEntityName("add_order_exchange");
