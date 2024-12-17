@@ -12,9 +12,20 @@ services:
       - mongo
       - redis
       - rabbitmq
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - RabbitMQ__Host=rabbitmq
+    networks:
+      - product-network
+
+  order-service:
+    build:
+      context: .
+      dockerfile: OrderService.Dockerfile
+    container_name: order-service
+    ports:
+      - "5011:5011"
+    depends_on:
+      - mongo
+      - redis
+      - rabbitmq
     networks:
       - product-network
 

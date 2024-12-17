@@ -37,7 +37,7 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("rabbitmq", "/", h =>
+        cfg.Host("rabbimq", "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
@@ -45,7 +45,7 @@ builder.Services.AddMassTransit(x =>
         cfg.Message<IAddOrderEvent>(m =>
         {
             m.SetEntityName("add_order_exchange");
-        });
+        }); 
 
         cfg.ConfigureEndpoints(context);
 
