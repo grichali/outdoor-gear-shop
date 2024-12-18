@@ -92,7 +92,6 @@ var app = builder.Build();
 
 app.MapDefaultEndpoints();
 
-// Configure the HTTP request pipeline.
 if (true)
 {
     app.UseSwagger();

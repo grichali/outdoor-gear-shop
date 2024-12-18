@@ -11,23 +11,23 @@ namespace OrderService.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
-        private readonly GrpcProductService.GrpcProductServiceClient _grpcProductServiceClient;
-        public OrderController(IOrderService orderService, GrpcProductService.GrpcProductServiceClient grpcProductServiceClient)
+        //private readonly GrpcProductService.GrpcProductServiceClient _grpcProductServiceClient;
+        public OrderController(IOrderService orderService)
         {
             _orderService = orderService;
-            _grpcProductServiceClient = grpcProductServiceClient;
+            //_grpcProductServiceClient = grpcProductServiceClient;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] Order order)
         {
             var productRequest = new ProductRequest { ProductId = order.productId };
-            var productResponse = await _grpcProductServiceClient.CheckProductAvailabilityAsync(productRequest);
+            //var productResponse = await _grpcProductServiceClient.CheckProductAvailabilityAsync(productRequest);
 
-            if (!productResponse.Available)
-            {
-                return Conflict(new { message = "Product is not available." });
-            }
+            //if (!productResponse.Available)
+            //{
+            //    return Conflict(new { message = "Product is not available." });
+            //}
             var createdOrder = await _orderService.CreateOrder(order);
             return CreatedAtAction(nameof(GetBuyerOrder), new { buyerId = createdOrder.buyerId }, createdOrder);
         }

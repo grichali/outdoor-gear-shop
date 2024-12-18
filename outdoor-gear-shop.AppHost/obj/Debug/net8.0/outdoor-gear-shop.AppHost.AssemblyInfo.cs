@@ -24,7 +24,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("outdoor-gear-shop.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+799696359718bc91183aff16feab21a3dd81be77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79160ebe3b65f6c7b75cf55c7bfb95189e465c29")]
 [assembly: System.Reflection.AssemblyProductAttribute("outdoor-gear-shop.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("outdoor-gear-shop.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
