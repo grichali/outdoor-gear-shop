@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outdoor-gear-shop.AppHost", "outdoor-gear-shop.AppHost\outdoor-gear-shop.AppHost.csproj", "{B24DDC9F-94FF-4572-BC7B-1ACD165290B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "outdoor-gear-shop.ServiceDefaults", "outdoor-gear-shop.ServiceDefaults\outdoor-gear-shop.ServiceDefaults.csproj", "{E0A77D46-08FF-4047-967C-BC30F8352B6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3D0F8F-20BE-4EF0-AC03-9BCA736FB762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24DDC9F-94FF-4572-BC7B-1ACD165290B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24DDC9F-94FF-4572-BC7B-1ACD165290B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24DDC9F-94FF-4572-BC7B-1ACD165290B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24DDC9F-94FF-4572-BC7B-1ACD165290B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A77D46-08FF-4047-967C-BC30F8352B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A77D46-08FF-4047-967C-BC30F8352B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A77D46-08FF-4047-967C-BC30F8352B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A77D46-08FF-4047-967C-BC30F8352B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

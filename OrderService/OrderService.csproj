@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\outdoor-gear-shop.ServiceDefaults\outdoor-gear-shop.ServiceDefaults.csproj" />
   </ItemGroup>
     <ItemGroup>
       <Protobuf Include="..\Contracts\Protos\product.proto" GrpcServices="Client" />

@@ -15,6 +15,8 @@ using RabbitMQ.Client;
 using ProductService.Infrastructure.Cache;
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 // Add services to the container.
 builder.Services.Configure<MongoDbSettings>(
         builder.Configuration.GetSection("MongoDbSettings")
@@ -58,7 +60,7 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("rabbitmq",5672, "/", h =>
+        cfg.Host("127.0.0.1",5672, "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
@@ -87,6 +89,8 @@ builder.Services.AddMassTransitHostedService();
 builder.Services.AddGrpc();
 
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 // Configure the HTTP request pipeline.
 if (true)

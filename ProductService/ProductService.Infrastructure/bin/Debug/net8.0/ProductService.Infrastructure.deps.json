@@ -300,12 +300,18 @@
           "Grpc.AspNetCore": "2.67.0"
         },
         "runtime": {
-          "Contracts.dll": {}
+          "Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "ProductService.Domain/1.0.0": {
         "runtime": {
-          "ProductService.Domain.dll": {}
+          "ProductService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

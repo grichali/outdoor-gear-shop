@@ -10,6 +10,8 @@ using OrderService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -37,14 +39,14 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("rabbitmq",5672, "/", h =>
+        cfg.Host("127.0.0.1",5672, "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
         });
         cfg.UseMessageRetry(r => 
         {
-            r.Interval(5, TimeSpan.FromSeconds(10)); // Retry 5 times with 10-second intervals
+            r.Interval(5, TimeSpan.FromSeconds(10));
         });
 
         cfg.Message<IAddOrderEvent>(m =>
@@ -64,6 +66,8 @@ builder.Services.AddGrpcClient<GrpcProductService.GrpcProductServiceClient>(opti
     options.Address = new Uri("https://localhost:5001");
 });
 var app = builder.Build();
+
+app.MapDefaultEndpoints();
 
 if (true)
 {
