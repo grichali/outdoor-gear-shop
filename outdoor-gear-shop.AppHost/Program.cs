@@ -3,6 +3,7 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 var redis = builder.AddRedis("redis", port: 6379)
     .WithImage("redis", tag: "latest");
+
 var sqlserver = builder.AddSqlServer("sqlserver", port: 1433)
     .WithVolume("sqlserver_data", "/var/opt/mssql")
     .WithEnvironment("SA_PASSWORD", "NewPassword!2024")
