@@ -14,6 +14,7 @@ var rabbitmq = builder.AddRabbitMQ("rabbitmq", port: 5672)
     .WithEnvironment("RABBITMQ_DEFAULT_USER", "guest")
     .WithEnvironment("RABBITMQ_DEFAULT_PASS", "guest")
     .WithImage("rabbitmq", tag: "3-management");
+
 var monogdb = builder.AddMongoDB("mongodb", port: 27017)
     .WithVolume("mongo_data", "/data/db");
 
