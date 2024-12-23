@@ -69,7 +69,7 @@ builder.Services.AddMassTransit(x =>
 
         cfg.ConfigureEndpoints(context);
 
-        cfg.ReceiveEndpoint("first-publish-queue", e =>
+        cfg.ReceiveEndpoint("add-order-queue", e =>
         {
             e.Bind("add_order_exchange", x =>
             {

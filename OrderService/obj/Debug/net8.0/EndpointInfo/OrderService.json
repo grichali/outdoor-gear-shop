@@ -139,12 +139,12 @@
       "ObjectId": {
         "type": "object",
         "properties": {
-          "timestamp": {
+          "Timestamp": {
             "type": "integer",
             "format": "int32",
             "readOnly": true
           },
-          "creationTime": {
+          "CreationTime": {
             "type": "string",
             "format": "date-time",
             "readOnly": true
@@ -155,7 +155,7 @@
       "Order": {
         "type": "object",
         "properties": {
-          "id": {
+          "Id": {
             "$ref": "#/components/schemas/ObjectId"
           },
           "buyerId": {

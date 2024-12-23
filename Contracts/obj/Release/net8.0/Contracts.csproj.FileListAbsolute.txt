@@ -1,0 +1,13 @@
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\bin\Release\net8.0\Contracts.deps.json
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\bin\Release\net8.0\Contracts.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\bin\Release\net8.0\Contracts.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.csproj.AssemblyReference.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.AssemblyInfoInputs.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.AssemblyInfo.cs
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.sourcelink.json
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\refint\Contracts.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\Contracts.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\Contracts\obj\Release\net8.0\ref\Contracts.dll

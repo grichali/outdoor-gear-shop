@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using OrderService.Interfaces;
 using OrderService.Model;
 using GrpcOrderToProduct;
+using System.Text.Json;
 
 namespace OrderService.Controllers
 {
@@ -28,8 +29,11 @@ namespace OrderService.Controllers
             //{
             //    return Conflict(new { message = "Product is not available." });
             //}
-            var createdOrder = await _orderService.CreateOrder(order);
-            return CreatedAtAction(nameof(GetBuyerOrder), new { buyerId = createdOrder.buyerId }, createdOrder);
+            Order createdOrder = await _orderService.CreateOrder(order);
+            Console.WriteLine("the order that has been created is : "+ createdOrder.Id);
+            Console.WriteLine("Order before return: " + JsonSerializer.Serialize(createdOrder));
+
+            return Ok(createdOrder.Id);
         }
 
         [HttpDelete("{id}")]

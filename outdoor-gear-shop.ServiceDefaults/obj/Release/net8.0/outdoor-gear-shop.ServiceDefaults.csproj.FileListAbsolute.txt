@@ -1,0 +1,13 @@
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\bin\Release\net8.0\outdoor-gear-shop.ServiceDefaults.deps.json
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\bin\Release\net8.0\outdoor-gear-shop.ServiceDefaults.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\bin\Release\net8.0\outdoor-gear-shop.ServiceDefaults.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.AssemblyInfo.cs
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.sourcelink.json
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\refint\outdoor-gear-shop.ServiceDefaults.dll
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\outdoor-gear-shop.ServiceDefaults.pdb
+C:\Users\ali\Desktop\outdoor-gear-shop\outdoor-gear-shop.ServiceDefaults\obj\Release\net8.0\ref\outdoor-gear-shop.ServiceDefaults.dll

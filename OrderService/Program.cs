@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using Contracts.EventContracts;
 using GrpcOrderToProduct;
 using MassTransit;
@@ -12,7 +13,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.AddServiceDefaults();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = null; // Use PascalCase
+    options.JsonSerializerOptions.WriteIndented = true;        // Pretty print (optional)
+    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()); // Enum as strings
+    options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+    options.JsonSerializerOptions.IncludeFields = true; // Include private fields if needed
+}); ;
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();

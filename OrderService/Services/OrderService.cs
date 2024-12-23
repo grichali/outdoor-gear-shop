@@ -23,8 +23,10 @@ namespace OrderService.Services
             Order or = await _orderRepository.createOrder(order);
             IAddOrderEvent addOrderEvent = new AddOrderEvent() { productId = order.productId };
             await bus.Publish<IAddOrderEvent>(addOrderEvent);
+            Console.WriteLine("the order is : " + or);
 
-            return order ;
+
+            return or ;
         }
 
         public async Task<Order> DeleteOrder(string id)

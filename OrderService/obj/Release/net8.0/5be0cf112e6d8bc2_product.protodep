@@ -1,0 +1,2 @@
+obj\Release\net8.0/Product.cs \
+obj\Release\net8.0/ProductGrpc.cs: ../Contracts/Protos/product.proto
