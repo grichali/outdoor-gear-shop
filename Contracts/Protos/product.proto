@@ -10,7 +10,7 @@ message ProductRequest {
 }
 
 // Response message indicating availability of the product
-message ProductResponse {
+message ProductResponse { 
     bool available = 1;
 }
 

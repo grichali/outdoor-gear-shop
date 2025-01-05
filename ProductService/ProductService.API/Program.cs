@@ -19,7 +19,11 @@ builder.AddServiceDefaults();
 
 // Add services to the container.
 builder.Services.Configure<MongoDbSettings>(
-        builder.Configuration.GetSection("MongoDbSettings")
+    options =>
+    {
+        options.MongoDbConnectionString = builder.Configuration.GetConnectionString("mongodb");
+        options.DatabaseName = "ProductDb";
+    }
     );
 
 builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
@@ -30,11 +34,13 @@ builder.Services.AddSingleton<IMongoClient>(serviceProvider =>
 builder.WebHost.ConfigureKestrel(options =>
 {
     options.ListenAnyIP(5000);
+    options.ListenAnyIP(5001, listen => listen.Protocols =
+    Microsoft.AspNetCore.Server.Kestrel.Core.HttpProtocols.Http2);
 });
 
 builder.Services.AddStackExchangeRedisCache(options =>
 {
-    options.Configuration = builder.Configuration["Redis:ConnectionString"];
+    options.Configuration = builder.Configuration.GetConnectionString("redis"); // Use Aspire-injected connection string
 });
 
 
@@ -53,18 +59,14 @@ builder.Services.AddSingleton(x => new Cloudinary(builder.Configuration["Cloudin
 
 builder.Services.AddMassTransit(x =>
 {
-
     x.AddConsumer<AddOrderConsumer>();
-
 
     x.UsingRabbitMq((context, cfg) =>
     {
-
-        cfg.Host("127.0.0.1",5672, "/", h =>
+        cfg.Host(builder.Configuration.GetConnectionString("rabbitmq"), "/", h => // Use Aspire-injected connection string
         {
             h.Username("guest");
             h.Password("guest");
-
         });
 
         cfg.ConfigureEndpoints(context);
@@ -79,10 +81,8 @@ builder.Services.AddMassTransit(x =>
         });
 
         cfg.UseJsonSerializer();
-
     });
 });
-
 builder.Services.AddMassTransitHostedService();
 
 

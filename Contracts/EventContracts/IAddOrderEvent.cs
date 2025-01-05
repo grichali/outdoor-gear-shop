@@ -8,6 +8,6 @@ namespace Contracts.EventContracts
 {
     public interface IAddOrderEvent
     {
-        string productId { get; set; } 
+        string productId { get; set; }  
     }
 }

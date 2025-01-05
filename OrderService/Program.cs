@@ -15,11 +15,11 @@ builder.AddServiceDefaults();
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
-    options.JsonSerializerOptions.PropertyNamingPolicy = null; // Use PascalCase
-    options.JsonSerializerOptions.WriteIndented = true;        // Pretty print (optional)
-    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()); // Enum as strings
+    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+    options.JsonSerializerOptions.WriteIndented = true;       
+    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()); 
     options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
-    options.JsonSerializerOptions.IncludeFields = true; // Include private fields if needed
+    options.JsonSerializerOptions.IncludeFields = true;
 }); ;
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -47,7 +47,7 @@ builder.Services.AddMassTransit(x =>
     x.UsingRabbitMq((context, cfg) =>
     {
 
-        cfg.Host("localhost",5672, "/", h =>
+        cfg.Host("127.0.0.1", "/", h =>
         {
             h.Username("guest");
             h.Password("guest");
@@ -61,7 +61,7 @@ builder.Services.AddMassTransit(x =>
         {
             m.SetEntityName("add_order_exchange");
         }); 
-
+    
         cfg.ConfigureEndpoints(context);
 
     });
@@ -69,7 +69,11 @@ builder.Services.AddMassTransit(x =>
 
 builder.Services.AddMassTransitHostedService();
 
-builder.Services.AddGrpcClient<GrpcProductService.GrpcProductServiceClient>();
+builder.Services.AddGrpcClient<GrpcProductService.GrpcProductServiceClient>(options =>
+{
+    options.Address = new Uri("http://productservice-api");
+});
+
 var app = builder.Build();
 
 app.MapDefaultEndpoints();

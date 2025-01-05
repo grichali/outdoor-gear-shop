@@ -8,7 +8,7 @@ using System.Text.Json;
 namespace OrderService.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController] 
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;

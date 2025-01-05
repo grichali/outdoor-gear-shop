@@ -243,6 +243,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AspireMassTransit.RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[1.2.1, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.67.0, )"
@@ -252,10 +256,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.68.1, )"
-            },
-            "MassTransit.RabbitMQ": {
-              "target": "Package",
-              "version": "[8.3.3, )"
             },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
